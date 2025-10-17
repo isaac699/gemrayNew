@@ -1,0 +1,981 @@
+
+body{
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* Navigation Bar */
+.navbar{
+  padding: 10px 10px 10px 50px;
+  background-color: #eee;
+  transition: all ease 0.4s;
+}
+.navbar-brand img{
+  font-size: 50px;
+  color:  #2bc0e4 !important;
+}
+
+.navbar-toggler{
+  font-size: 15px;
+  color: #333 !important;
+}
+.navbar .navbar-nav li a{
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #252525;
+}
+.nav-link.active {
+  color: #2bc0e4!important;
+ }
+ .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #102542;
+}
+.navbar-scrolled{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 50px;
+}
+.navbar{
+  transition: all 0.8s;
+}
+/* Animation */
+.animate{
+  padding: 0px 10px 0px 0px;
+  transition: all ease 0.4s;
+}
+
+
+/* Top notch styling */
+.notch1{
+  background-color: #d9eff7;
+  font-family: "Montserrat", sans-serif;
+}
+
+.rounded1 {
+  background-color: #d9eff7;
+  border-radius:2rem!important;
+}
+
+.cont1{
+  padding: 3% 3%;
+}
+
+.fastest{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 4%;
+  padding-left: 5%;
+  text-align: left;
+}
+.fast-h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  color: #333;
+}
+.way{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #333;
+}
+.gemray-p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 1.2rem 0 1rem;
+}
+
+/* buttons */
+.btn-primary01{
+  background-color: #4741a6;
+  border: none;
+  padding: 1.5% 5%;
+  text-decoration: none;
+  color: #d9eff7;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn-primary01 a{
+  color: #4741a6;
+}
+.btn-primary01:hover{
+  color: #4741a6;
+  border: 1px solid #4741a6;
+}
+
+/* Lets increase */
+.lets-increase{
+  text-align: center;
+}
+.book-p{
+  padding: 0 5rem 1.5rem;
+  font-weight: 100;
+  text-align: left;
+}
+
+.sales-h1{
+  padding-top: 1.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #373A40;
+}
+span2{
+  font-size: 2rem;
+  color: #758694;
+}
+
+.increase-sales-p{
+  color: #686D76;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 3rem 3rem;
+}
+@media (max-width: 900px){
+  .increase-sales-p{
+    padding: 0 10px 3rem;
+    text-align: justify;
+    text-justify: inter-word;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+  .sales-h1{
+    padding-top: 2rem;
+  }
+}
+
+/* ours sales academy */
+.paddingtop{
+  padding-top: 0%;
+}
+.container4{
+  padding: 0% 0% 5%;
+  text-align: center;
+}
+
+.our-sales{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  color: white;
+}
+.we-have{
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 3rem 3rem;
+}
+@media (max-width: 900px){
+  .we-have{
+    padding: 0 15px 3rem;
+    text-align: justify;
+    text-justify: inter-word;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+  .our-sales{
+    padding-top: 2rem;
+  }
+}
+
+.container4{
+  padding: 6% 5% 5%;
+  background-image: url(images/500.png);
+  background-position: center;
+  width: 100%;
+  height: 330px;
+}
+
+.container5{
+  padding: 2% 10% 10%;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+.container5 h5{
+  padding: 3% 0 3%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 2%;
+  color: #373A40;
+  line-height: 2rem;
+  text-align: left;
+}
+@media (max-width: 900px){
+  .container5 h5{
+    text-align: justify;
+    text-justify: inter-word;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+}
+.btn-primary2{
+  background-color: #373A40;
+  border: none;
+  padding: 1% 2%;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+.btn-primary2 a{
+  color: #373A40;
+}
+.btn-primary2:hover{
+  color: #373A40;
+  border: 1px solid #373A40;
+}
+
+
+
+/* SECTORS OF ACTIVITIES  */
+.sector-h1{
+  padding: 5% 5% 2%;
+  text-align: center;
+}
+
+.sectr{
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  color: #373A40;
+  font-weight: bold;
+}
+
+.sectors-h3{
+  font-weight: 400;
+  padding: 3% 0 3%;
+  font-size: 1.2rem;
+  color: #373A40;
+  line-height: 2rem;
+  text-align: left;
+}
+@media (max-width: 900px){
+  .sectr{
+    font-size: 2rem;
+  }
+  .sectors-h3{
+    text-align: justify;
+    text-justify: inter-word;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+}
+
+.list-cont{
+  padding: 0 5% 6%;
+}
+
+.list-group{
+  padding-bottom: 10px;
+}
+
+.list-group-item{
+  font-size: 1rem;
+  padding: 10px;
+  color: #686D76;
+  font-weight: bold;
+}
+
+
+/* about */
+.container-fluid1{
+  padding: 8% 3% 3%;
+}
+
+.about-gemray{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #686D76;
+  font-weight: bold;
+}
+
+.about-span{
+  color: #686D76;
+}
+
+#aboutgemray{
+  background-color: #EEEEEE;
+  padding: 3% 5% 3%;
+  font-size: 2.5rem;
+}
+
+.gemray-p{
+  line-height: 1.5rem;
+  font-weight: light;
+  font-size: 1.2rem;
+  color: #686D76;
+  font-family: 'Montserrat', sans-serif;
+}
+.img{
+  padding-bottom: 8%;
+}
+
+
+/* Why choose us */
+#main-cont{
+  padding: 0 3% 0;
+  font-family: 'Montserrat', sans-serif;
+}
+#container{
+  padding: 0 3%;
+  background-color: #F5F7F8;
+  background-image: url(images/44.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius:2rem!important
+}
+.why{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.Exp-span{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  /* color: #45474B; */
+  color: #EEEDEB;
+  font-size: 2rem;
+}
+
+.About-h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #F9ce69;
+}
+
+.digi-M{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  /* color: #45474B; */
+  color: #D0D4CA;
+}
+
+.Digi-P{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: light;
+  color: #D0D4CA;
+}
+
+.fa-solid{
+  font-size: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+/* Why choose us */
+
+
+
+/* brands mission */
+.fluid2{
+  padding: 10% 0 5%;
+}
+.img1{
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.brands-h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #373A40;
+  font-weight: bold;
+  font-size: 2.5rem
+}
+.brands-p{
+  font-family: 'Montserrat', sans-serif;
+  color: #373A40;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+}
+/* brands mission */
+
+
+
+/* founder special note */
+.container6{
+  padding: 5% 3% 5%;
+  align-items: center;
+  background-color: #eee;
+}
+.spec-note-h6{
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 3%;
+  color: #373A40;
+}
+.rounded{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+ span1{
+  font-weight: bold;
+}
+span3{
+  font-weight: lighter;
+  color: #686D76;
+
+}
+.spec-note-p{
+  padding-top: 11%;
+  font-weight: light;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #373A40;
+}
+.spec-note-p span04{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #373A40;
+  font-size: 1.2rem;
+}
+/* founder special note */
+
+
+/* Testimonial session Happy Customers*/
+#testimony{
+  padding: 7% 13%;
+  text-align: center;
+  color: white;
+}
+.happy-h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #373A40;
+}
+.testy-1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #373A40;
+  font-size: 1.2rem;
+}
+span4{
+  font-family: 'Montserrat', sans-serif;
+  color: #2bc0e4;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.ceo{
+  font-family: 'Montserrat', sans-serif;
+  color: #686D76;
+}
+.carousel-item{
+  width: 100%;
+  background-position: center !Important;
+  background-size: cover !Important;
+}
+.testy-image{
+  width: 13%;
+  border-radius: 25%;
+  margin: 20px;
+}
+.fafa1{
+  color: black;
+  font-size: 1rem;
+}
+#carouselExampleIndicators ol.carousel-indicators li{
+  background-color: #686D76;
+}
+/* Testimonial session Happy Customers*/
+
+
+
+/* OUR SERVICE STYLING */
+/* feauture */
+    .container-fluid01{
+      background-color: #EEEEEE;
+      padding: 3% 3%;
+    }
+
+     .head{
+      padding: 8% 3% 0;
+      overflow: hidden;
+      text-align: center;
+      position: relative;
+      background-image: url(images/refresh.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 200px;
+    }
+    .head::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(29,78,137, 1) 50%, rgba(29,78,137, 0.4) 100%);
+    }
+
+    .we-commit-p{
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+    }
+
+    .card{
+      margin-bottom: 6%;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .card-body{
+      margin: 3.5%;
+      text-align: left;
+
+    }
+
+    .card-title{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+    }
+    .card-text{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: lighter;
+    }
+
+    .btn-primary1{
+      background-color: #373A40;
+      border: none;
+      padding: 1.5% 5%;
+      text-decoration: none;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .btn-primary1 a{
+      color: #373A40;
+    }
+    .btn-primary1:hover{
+      color: #373A40;
+      border: 1px solid #373A40;
+    }
+
+    .we{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      font-weight: bold;
+      /* color: #65B741; */
+      color: #686D76;
+    }
+    .span1{
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #373A40;
+      font-family: 'Montserrat', sans-serif;
+    }
+/* OUR SERVICE STYLING */
+
+
+/* HIRE US STYLING */
+/* Hire us */
+    .cont{
+      margin: 8% 5% 5%;
+      background-color: #F5F7F8;
+    }
+    .container1{
+      padding: 8% 5%;
+      background-color: #F5F7F8;
+    }
+
+    .hire-h1{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      color: #373A40;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    #hire-p{
+      font-family: 'Montserrat', sans-serif;
+      line-height: 2.3rem;
+      text-align: center;
+      color: #373A40;
+      font-weight: 400;
+      font-size: 1.2rem;
+      padding: 0 5%;
+    }
+    .form-control{
+      font-size: 15px;
+      font-weight: 300;
+      color: #373A40;
+      padding: 5%;
+    }
+    /* MARK THE SERVICE */
+    .container-hire{
+      padding-bottom: 3%;
+    }
+    .complete{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #686D76;
+      padding: 3% 0 5px;
+    }
+    .complete-p{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+      font-weight: lighter;
+      color: #686D76;
+    }
+    .mark-h1{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-align: horizontal;
+      padding-right: 2rem;
+      color: #373A40;
+    }
+    input[type="checkbox"] {
+      width: 15px;
+      height: 15px;
+      accent-color: #658864;
+      margin-right: 5px;
+    }
+    .box{
+      font-weight: 400;
+      color: #686D76;
+      font-family: 'Montserrat', sans-serif;
+      text-align: left;
+      font-size: 1rem;
+    }
+    .no-border {
+    box-shadow: none;
+    }
+    .form-control:focus {
+      z-index: 2;
+      text-align: left;
+      border: 1px solid #686D76 !important;
+      /* outline: none !important; */
+      box-shadow: none !important;
+    }
+    input[type="text"],:focus {
+      border-color: #bec3c7;
+      box-shadow: 1px solid #686D76;
+    }
+    .label1{
+      color: #bec3c7;
+      font-size: 1.2rem;
+      padding-left: 2%;
+    }
+    input[type="mobile"],:focus {
+      border-color: #bec3c7;
+      box-shadow: 1px solid #686D76;
+    }
+
+    .btn-p{
+      text-align: left;
+      padding: 3% 0 0 3%;
+
+    }
+    .btn-sub{
+      background-color: #658864;
+      outline: none;
+      color: #eee;
+    }
+/* HIRE US STYLING */
+
+
+/* OUR PORTFOLIO STYLING */
+    .photo-gallery {
+      color:#313437;
+      background-color: #fff;
+      padding: 3% 5% 5%;
+    }
+    .photo-gallery .intro h2{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #373A40;
+    }
+
+    .photo-gallery .intro p {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      margin-bottom:0;
+      font-size: 1.2rem;
+      color:#7d8285;
+    }
+    .photo-gallery1 {
+      color:#313437;
+      background-color:#eef4f7;
+      padding: 3% 6% 3%;
+    }
+    .photo-gallery1 h1{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #686D76;
+    }
+
+    .photo-gallery h2 {
+      font-weight:bold;
+      margin-bottom:40px;
+      padding-top:40px;
+      color:inherit;
+      font-size: 3rem;
+    }
+    .graphics{
+      text-align: center;
+      padding: 3% 5% 5%;
+      color: #373A40;
+    }
+
+    .photo-gallery1 .photos{
+      padding-bottom:20px;
+    }
+    .photo-gallery1 .item {
+      padding-bottom:30px;
+    }
+/* OUR PORTFOLIO STYLING */
+
+
+/* REFRESHING */
+/* refreshing approach */
+.container-fluid01{
+  padding-top: 5%;
+}
+    .row{
+      padding: 5% 5% 8%;
+    }
+
+    .refresh-main{
+      /* width: 100%; */
+      height: 650px;
+      background-image: url(images/refresh.jpg);
+      justify-content: center;
+      padding: 13% 5%;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .refreshing{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.2rem;
+      font-weight: lighter;
+      color: white;
+    }
+    .approach{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 3.5rem;
+      font-weight: bold;
+      color: white;
+      padding-bottom: 5px;
+    }
+    .digital-m{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2rem;
+      font-weight: normal;
+      color: white;
+      padding-bottom: 2px;
+    }
+    .digital-p{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1rem;
+      font-weight: lighter;
+      color: white;
+
+    }
+    /* buttons */
+    .btn-primary04{
+      background-color: #399918;
+      border: none;
+      text-decoration: none;
+      color: #d9eff7;
+    }
+    .btn-primary04 a{
+      color: #eee;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold
+    }
+    .btn-primary04:hover{
+      color: #eee;
+      border: 1px solid #eee;
+    }
+
+
+    /* whats set my service apaart */
+    .text-main{
+      padding: 8% 5% 0;
+    }
+    .apart-h1{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #686D76;
+      padding-bottom: 5px;
+      text-align: center;
+    }
+    span1{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2.5rem;
+      font-weight: lighter;
+      color: #FFAB5B;
+    }
+
+    .grid{
+      padding: 5% 5% 0;
+    }
+    /* .fa-regular{
+      font-size: 2.3rem;
+      padding: 10px;
+      color: #76885B;
+      border: 1px solid #76885B;
+      border-radius: 50%;
+      padding: 3%;
+      margin-bottom: 2%;
+    }
+    .fa-regular:hover{
+      background-color: #ff8975;
+      color: white;
+      transition: 0.5s;
+    } */
+
+    .tailored-h1{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2.3rem;
+      font-weight: bold;
+      color: #686D76;
+    }
+    .para{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1rem;
+      font-weight: lighter;
+      color: #686D76;
+    }
+
+    /* invite */
+    .days-with-me{
+      padding: 0 10% 2%;
+    }
+    .invite-h1{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.5rem;
+      font-weight: lighter;
+      color: #686D76;
+      justify-content: horizontal-align;
+      line-height: 30px;
+    }
+    /* buttons */
+    button.btn-primary05{
+      background-color: #399918;
+      border: none;
+      text-decoration: none;
+      color: #d9eff7;
+    }
+    .btn-primary05 a{
+      color: #eee;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+    .btn-primary05:hover{
+      color: #686D76;
+      border: 1px solid #686D76;
+    }
+/* REFRESHING */
+
+
+  /* CONTACT US */
+
+
+
+
+/* footer */
+#footer{
+  background-color: #252525;
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+  padding: 3% 5% 0;
+  text-align: center;
+}
+
+.col-lg-4{
+  text-align: center;
+  margin: 3.5% 0;
+}
+
+.footer-h6{
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 25px;
+  color: #EEEEEE;
+  text-align: left;
+}
+
+.useful{
+  font-size: 1.2rem;
+  color: #eee;
+  font-weight: bold;
+}
+
+.useful-a a{
+  text-decoration: none;
+  margin-left: 3%;
+  color: #eee;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+
+.col-lg-4 a:hover{
+  color: #d9eff7;
+}
+
+.botom{
+  text-align: center;
+  padding-bottom: 4%;
+}
+.botom h5{
+  font-size: 1.2rem;
+  color: #686D76;
+  font-weight: 500;
+}
+
+.yhaw{
+  font-size: 1rem;
+  color: #EEEDEB;
+  font-weight: 400;
+}
+
+.fa-brands{
+  font-size: 1.2rem;
+  margin-left: 2px;
+  padding-right: 10px;
+  color: #fff;
+}
+
+/* @media-q ueries */
+
+@media (max-width: 900px){
+    .footer-h6{
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 510px){
+      .whyspan{
+        text-align: center;
+        padding: 0 3%;
+      }
+    }
+    @media (max-width: 510px) {
+      .Exp-span{
+        line-height: 5px;
+      }
+    }
